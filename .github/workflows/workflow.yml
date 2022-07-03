@@ -22,5 +22,5 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          curl https://github.com/docker/cli/blob/master/contrib/completion/fish/docker.fish --output docker.fish 
+          curl https://raw.githubusercontent.com/docker/cli/master/contrib/completion/fish/docker.fish --output docker.fish 
           cat docker.fish
