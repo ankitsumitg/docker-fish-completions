@@ -2,7 +2,7 @@ name: pull-fish-competions-from-docker
 
 on:
   schedule:
-    - cron:  '0 0 * * SUN'    # Runs at 00:00 UTC on Sun.
+    - cron:  '0 0 * * *'    # Runs at 00:00 UTC on Sun.
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -28,4 +28,5 @@ jobs:
           git config user.email github-actions@github.com
           git add .
           git commit -m "Added new changes docker.fish 🐟" || echo "No changes to commit 🥵"
-          git push || echo "No changes to push 🥵"
+          git push
+          echo "Bye 👋🏻"
