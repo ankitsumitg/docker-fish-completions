@@ -2,12 +2,11 @@ name: pull-fish-competions-from-docker
 
 on:
   schedule:
-    - cron:  '0 0 * * *'    # At every 15th minute
+    - cron:  '0 0 * * *'    # Runs at 00:00 UTC every day.
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
@@ -22,6 +21,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          curl https://raw.githubusercontent.com/docker/cli/master/contrib/completion/fish/docker.fish --output docker.fish 
-          pwd
-          ls -lrth
+          curl https://raw.githubusercontent.com/docker/cli/master/contrib/completion/fish/docker.fish > docker.fish 
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Added new changes docker.fish" || echo "No changes to commit"
+          git push
