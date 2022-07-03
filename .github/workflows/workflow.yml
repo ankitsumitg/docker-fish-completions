@@ -21,9 +21,11 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          curl https://raw.githubusercontent.com/docker/cli/master/contrib/completion/fish/docker.fish > docker.fish 
+          curl https://raw.githubusercontent.com/docker/cli/master/contrib/completion/fish/docker.fish > docker.fish
+          mkdir -p completions
+          mv docker.fish completions/docker.fish
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Added new changes docker.fish" || echo "No changes to commit"
-          git push
+          git commit -m "Added new changes docker.fish 🐟" || echo "No changes to commit 🥵"
+          git push || echo "No changes to push 🥵"
