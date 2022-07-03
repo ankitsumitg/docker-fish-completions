@@ -23,4 +23,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl https://raw.githubusercontent.com/docker/cli/master/contrib/completion/fish/docker.fish --output docker.fish 
-          cat docker.fish
+          pwd
+          ls -lrth
