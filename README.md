@@ -1,5 +1,5 @@
-🐳 Docker fish completion 🐳
-=============================
+🐳 Docker fish completions 🐟
+==============================
 
 docker command completion for the fish shell.
 
