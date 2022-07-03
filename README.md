@@ -16,7 +16,7 @@ Installation
 
 ### [Fisher Plugin](https://github.com/jorgebucaran/fisher)
 
-    fisher install barnybug/docker-fish-completion
+    fisher install ankitsumitg/docker-fish-completions
 
 fish will show up the new completions straight away, no reload necessary.
     
@@ -29,7 +29,7 @@ Example
     % docker run -t -i [TAB]
         ubuntu:20.04               (Image)
 
-    % docker run -t -i busybox:latest
+    % docker run -t -i ubuntu:20.04
     / #
 
 Completion supported
