@@ -4,11 +4,11 @@
 
 `docker` command completions for [Fish](https://fishshell.com/).
 
-Always in sync with [docker/cli/contrib/completion/fish/docker.fish](https://github.com/docker/cli/blob/master/contrib/completion/fish/docker.fish).
+Always in sync with official [docker/cli/contrib/completion/fish/docker.fish](https://github.com/docker/cli/blob/master/contrib/completion/fish/docker.fish).
 
-- Fish 🟰 awesome
-- docker 🟰 awesome
-- completions 🟰 awesome²
+- Fish = awesome
+- docker = awesome
+- completions = awesome²
 
 ## Installation
 
