@@ -48,3 +48,9 @@ Fish will load the new completions straight away—no reload required.
 - containers
 - images
 - repositories
+
+## Contributors
+
+<a href="https://github.com/ankitsumitg/docker-fish-completions/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ankitsumitg/docker-fish-completions" />
+</a>
