@@ -1,6 +1,6 @@
 # 🐳 Docker Fish completions
 
-<a href="https://github.com/ankitsumitg"><img src="https://img.shields.io/github/workflow/status/ankitsumitg/docker-fish-completions/pull-fish-competions-from-docker?logo=github&style=for-the-badge" alt="Fish"></a>
+<a href="https://github.com/ankitsumitg"><img src="https://img.shields.io/github/actions/workflow/status/ankitsumitg/docker-fish-completions/workflow.yml?logo=github&style=for-the-badge" alt="Fish"></a>
 
 `docker` command completions for [Fish](https://fishshell.com/).
 
