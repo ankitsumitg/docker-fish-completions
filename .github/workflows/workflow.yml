@@ -1,4 +1,4 @@
-name: pull-fish-competions-from-docker
+name: pull-fish-completions-from-docker
 
 on:
   schedule:
