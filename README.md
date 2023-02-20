@@ -22,7 +22,7 @@ Or manually:
 
 ```console
 mkdir ~/.config/fish/completions
-wget https://raw.githubusercontent.com/ankitsumitg/docker-fish-completions/main/docker.fish -O ~/.config/fish/completions/docker.fish
+wget https://raw.githubusercontent.com/ankitsumitg/docker-fish-completions/main/completions/docker.fish -O ~/.config/fish/completions/docker.fish
 ```
 
 Fish will load the new completions straight away—no reload required.
